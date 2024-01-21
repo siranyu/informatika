@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anyu | Github Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!---link buat font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg">
+            <div class="container-fluid px-5 d-flex justify-content-center">
+                <div class="header-title">
+                    <a class="navbar-brand fw-bold" href="#">Banyu BN</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse px-3" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <li class="nav-item px-3">
+                                    <a class="nav-link active btn-list" aria-current="page" href="index.html">Home</a>
+                                </li>
+                            </div>
+                            <div class="col-md-3">
+                                <li class="nav-item px-3">
+                                    <a class="nav-link active btn-list" aria-current="page" href="#footer">Contact</a>
+                                </li>
+                            </div>
+                            <div class="col-md-3">
+                                <li class="nav-item px-3">
+                                    <a class="nav-link active btn-list" aria-current="page" href="#footer">About</a>
+                                </li>
+                            </div>
+                            <div class="col-md-3">
+                                <li class="nav-item px-2">
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Tutorial
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="github.html">Push ke Github</a></li>
+                                            <li><a class="dropdown-item" href="coming-soon.html">Membuat Web Dasar</a></li>
+                                            <li><a class="dropdown-item" href="coming-soon.html">Tips Shortcut VSCode</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid d-flex justify-content-center" style="background-color: #f1f1f1;">
+        <div style="width: 80%; background-color: white;">
+            <div class="tutorial-content pt-4">
+                <h3 class="mx-4">1. Download Gitbash Terlebih Dahulu!</h3>
+                <img src="assets/github-1.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <p class="mx-4">Masuk ke situs "git-scm.com" lalu tekan download dan pilih OS yang sesuai dengan
+                    perangkatmu. Disini saya menggunakan windows 64-bit, jadi saya download versi yang untuk windows.
+                </p>
+                <p class="mx-4">Install dan tekan Next, biarkan settingan default saja, tidak perlu di ubah.</p>
+            </div>
+            <div class="tutorial-content pt-5">
+                <h3 class="mx-4">2. Buka Command Prompt</h3>
+                <img src="assets/github-2.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <p class="mx-4">Buka command prompt dan ketik "git" lalu tekan Enter.</p>
+                <img src="assets/github-3.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <p class="mx-4">Jika muncul tulisan-tulisan seperti ini, berarti kamu telah berhasil menginstall Git di
+                    perangkatmu.</p>
+            </div>
+            <div class="tutorial-content pt-5">
+                <h3 class="mx-4">3. Buat Repository Baru Di GitHub</h3>
+                <img src="assets/github-4.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <p class="mx-4">Setelah itu, copy link repository github kamu.</p>
+                <img src="assets/github-5.png" style="width: 800px;" class="img-fluid rounded mx-auto d-block py-4">
+                <p class="mx-4">Tekan tombol bagian paling kanan seperti di gambar.</p>
+            </div>
+            <div class="tutorial-content pt-5">
+                <h3 class="mx-4">4. Buka Projectmu yang Ingin Kamu Upload</h3>
+                <img src="assets/github-6.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <p class="mx-4">Buka terminal dengan tekan tombol "CTRL + `" dan pilih Git Bash</p>
+            </div>
+            <div class="tutorial-content pt-5">
+                <h3 class="mx-4">5. Masukkan Sintaks - Sintaks Git</h3>
+                <br>
+                <p class="mx-4">Masukkan sintaks-sintaks Git di terminal yang kamu buka tadi seperti gambar di bawah
+                    ini.</p>
+                <img src="assets/github-init.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <img src="assets/github-add.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <img src="assets/github-commit.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <img src="assets/github-remote.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <p class="mx-4" style="font-style: italic;">*Letakkan link repository yang sudah kamu Copy ke
+                    sintaksnya.</p>
+                <img src="assets/github-push.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <ul class="mx-4">
+                    <li>git init</li>
+                    <li>git add .</li>
+                    <li>git commit "nama upload"</li>
+                    <li>git branch -M master</li>
+                    <li>git remote add origin "link repository kamu"</li>
+                    <li>git push -u origin master</li>
+                </ul>
+                <hr>
+                <img src="assets/github-repo.png" class="github-img img-fluid rounded mx-auto d-block py-4">
+                <p class="mx-4 text-center fw-bold h5">SELAMAT! Kamu telah berhasil upload project kamu ke Github.</p>
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer class="shadow-lg" id="footer">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="mb-3">Anyu</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias delectus modi dicta qui ipsum rerum
+                    beatae similique exercitationem? Harum accusamus enim ut optio cupiditate mollitia quas assumenda
+                    iusto minima debitis dolore, dolorum vitae tenetur fuga ea eius molestias. Neque recusandae dolorum
+                    labore. Facilis fugit temporibus quaerat veniam quia optio ipsum.</p>
+            </div>
+            <div class="col-md-2">
+                <h3 class="mb-3">Socials</h3>
+                <a class="py-1" href="https://www.instagram.com/anyu.sir/" target="_blank">Instagram</a>
+                <a class="py-1" href="https://www.tiktok.com/@dejet666" target="_blank">TikTok</a>
+                <a class="py-1" href="#">Facebook</a>
+            </div>
+            <div class="col-md-2">
+                <h3 class="mb-3">Contact</h3>
+                <a href="#" class="py-1">Whatsapp</a>
+                <a href="#" class="py-1">Discord</a>
+                <a href="#" class="py-1">Customer Services</a>
+            </div>
+            <div class="col-md-2">
+                <h3 class="mb-3">About Me</h3>
+                <a class="py-1" href="#">Linked In</a>
+                <a class="py-1" href="#">Portofolio</a>
+                <a class="py-1" href="#">More</a>
+            </div>
+        </div>
+        <div class="watermark">
+            <h6 class="fw-bold text-center pt-5">©Banyu Bagastara Nugroho</h6>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
